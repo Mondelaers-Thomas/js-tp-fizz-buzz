@@ -13,7 +13,7 @@ const FizzBuzz = {
             } else if(i % 5 === 0){
                 this.mOl.insertAdjacentHTML("beforeend", '<li class="buzz">BU<i>zz</i></li>');
             } else {
-                this.mOl.insertAdjacentHTML("beforeend", `<li class="buzz">${i}</li>`);
+                this.mOl.insertAdjacentHTML("beforeend", `<li>${i}</li>`);
             }
         }
     }
